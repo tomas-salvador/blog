@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado de la portada en la página principal */
+.portada {
+    background-image: url('../images/portada.jpg'); /* Imagen de portada */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.portada h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header general para otras páginas */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alineación y espaciado de listas en el contenido de los posts */
+main article ul {
+    list-style-type: none; /* Elimina los puntos de la lista por defecto */
+    padding: 0;            /* Quita el padding predeterminado */
+    margin: 0 auto;        /* Centra la lista */
+    max-width: 600px;      /* Ajusta el ancho máximo de la lista */
+}
+
+main article ul li {
+    padding: 10px 0;      /* Añade espacio vertical entre los puntos de la lista */
+    text-align: left;     /* Alineación a la izquierda para el texto */
+}
+
+main article ul li strong {
+    display: inline-block;
+    width: 100%;          /* Aplica el ancho para que el texto se mantenga alineado */
+    padding-left: 10px;   /* Añade espacio a la izquierda para mejor lectura */
+    font-weight: bold;    /* Mantiene el texto en negrita */
+}
+
+.blog-list article {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-list h2 a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.blog-list h2 a:hover {
+    color: #0073e6;
+}
+
+.fecha {
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Entradas de blog individuales */
+article h2 {
+    font-size: 1.8em;
+    color: #0073e6;
+    margin-top: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
