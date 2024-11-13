@@ -2,37 +2,63 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres como UTF-8, que soporta caracteres especiales como acentos y ñ -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta la escala y el ancho de la página para que funcione bien en teléfonos -->
+    
     <title>Mi Blog</title>
+    <!-- Título de la página que aparece en el navegador -->
+
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Enlace al archivo CSS que define los estilos para la página -->
 </head>
+
 <body>
+    <!-- Inicio del cuerpo de la página. Aquí va todo el contenido visible para el usuario -->
+    
     <header class="portada">
         <h1>Mi Blog Personal</h1>
+        <!-- Encabezado principal del sitio con el título "Mi Blog Personal". La clase "portada" permite aplicar estilos específicos a este bloque -->
     </header>
 
     <main>
+        <!-- Aquí va el contenido principal de la página -->
+
         <section class="blog-list">
+            <!-- Sección que contiene la lista de publicaciones del blog. La clase "blog-list" ayuda a aplicar estilos específicos a esta sección -->
+
             <article>
+                <!-- Cada publicación del blog está representada por un elemento <article> que permite tratarlas de forma independiente -->
+
                 <h2><a href="post1.html">Post 1: Un Viaje a la Naturaleza</a></h2>
+                <!-- Título de la publicación con un enlace a la página "post1.html" -->
+
                 <p>Descubre la belleza de la naturaleza en un viaje inolvidable... <a href="post1.html">Leer más</a></p>
+                <!-- Un breve resumen de la publicación con un enlace "Leer más" que lleva al usuario al artículo completo -->
+
                 <p class="fecha">Publicado el 30 de octubre de 2024</p>
+                <!-- Fecha de publicación, con la clase "fecha" para aplicar estilos específicos -->
             </article>
+
             <article>
                 <h2><a href="post2.html">Post 2: La Tecnología en el Futuro</a></h2>
                 <p>Exploramos cómo la tecnología moldeará el mundo en los próximos años... <a href="post2.html">Leer más</a></p>
                 <p class="fecha">Publicado el 30 de octubre de 2024</p>
             </article>
+
             <article>
                 <h2><a href="post3.html">Post 3: Consejos para una Vida Saludable</a></h2>
                 <p>Pequeños cambios que puedes hacer para llevar una vida más sana... <a href="post3.html">Leer más</a></p>
                 <p class="fecha">Publicado el 30 de octubre de 2024</p>
             </article>
+            <!-- Repetición de <article> para cada entrada del blog, estructuradas de igual forma para consistencia y fácil acceso al contenido -->
         </section>
     </main>
 
     <footer>
         <p>© 2024 Mi Blog Personal</p>
+        <!-- Pie de página con el texto de derechos de autor -->
     </footer>
 </body>
 </html>
